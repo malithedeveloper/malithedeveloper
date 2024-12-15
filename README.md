@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm mali</h1>
-<h3 align="center">backend(?) developer from Türkiye</h3>
+<h3 align="center">trying to be fullstack developer from Türkiye</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=malithedeveloper&label=Profile%20views&color=0e75b6&style=flat" alt="malithedeveloper" /> </p>
 
@@ -7,13 +7,9 @@
 
 <p align="left"> <a href="https://twitter.com/malidev_" target="blank"><img src="https://img.shields.io/twitter/follow/malidev_?logo=twitter&style=for-the-badge" alt="malidev_" /></a> </p>
 
-- 🌱 I’m currently learning **Java**
-
-- 💬 Ask me about **Python, .NET**
+- 🌱 I’m currently **trying fill my github page**
 
 - 📫 How to reach me **discord @malidev**
-
-- ⚡ Fun fact **there is no fun fact ahaha**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
