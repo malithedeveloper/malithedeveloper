@@ -12,7 +12,7 @@
   Türkiye
 </p>
 
-## `whoami`
+<h2 align="center"><code>whoami</code></h2>
 
 I'm **mali**, a Computer Engineering student at Yalova University. I've been
 interested in computers for as long as I can remember, and I keep exploring new
@@ -23,10 +23,6 @@ I use **AI** in my workflow and, honestly, some projects eventually become full-
 to understand what ships. When needed, I reverse engineer software for security
 research, compatibility, or undocumented systems. I've also built game mods, and
 I'm gradually getting comfortable across the **full stack**.
-
-### `stack`
-
-`TypeScript` · `JavaScript` · `Rust` · `C#` · `Vue` · `Node.js` · `Cloudflare` · `Git`
 
 <br>
 
