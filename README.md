@@ -17,7 +17,8 @@
 I'm mali, a Computer Engineering student at Yalova University. I've been
 interested in computers for as long as I can remember, and I keep exploring new
 areas of software by turning ideas into working projects.
-
+</p>
+<p align="center">
 I use AI in my workflow and, honestly, some projects eventually become full-on
 vibe coding. I still stay involved in the decisions, test the behavior, and try
 to understand what ships. When needed, I reverse engineer software for security
