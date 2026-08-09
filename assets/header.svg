@@ -10,16 +10,24 @@
         font-weight: 700;
       }
       .logo-points { animation: shimmer 3.8s ease-in-out infinite; }
-      .letter { animation: letter-drift var(--duration) ease-in-out infinite; }
+      .logo-glyph {
+        font-family:"MaliDev Logo",monospace;
+        font-size:142px;
+        font-style:italic;
+        font-weight:700;
+      }
+      .letter {
+        animation:letter-drift var(--duration) ease-in-out infinite alternate;
+        will-change:transform;
+      }
       .field-a { animation: field-a 9s ease-in-out infinite; }
       .field-b { animation: field-b 12s ease-in-out infinite; }
       .spark-a { animation: spark 3.1s ease-in-out infinite; }
       .spark-b { animation: spark 4.7s ease-in-out infinite reverse; }
       .spark-c { animation: spark 6.2s ease-in-out infinite; }
       @keyframes letter-drift {
-        0%,100% { transform:translate(0,0) }
-        34% { transform:translate(var(--dx),var(--dy)) }
-        71% { transform:translate(var(--dx2),var(--dy2)) }
+        from { transform:translate(var(--from-x),var(--from-y)) }
+        to { transform:translate(var(--to-x),var(--to-y)) }
       }
       @keyframes shimmer { 0%,100% { opacity:.82 } 50% { opacity:1 } }
       @keyframes field-a { 0%,100% { transform:translate(0,0) } 50% { transform:translate(5px,-3px) } }
@@ -38,19 +46,13 @@
     <pattern id="logo-dots" width="8" height="8" patternUnits="userSpaceOnUse">
       <circle cx="4" cy="4" r="1.65" fill="#fff"/>
     </pattern>
-    <mask id="logo-mask" maskUnits="userSpaceOnUse" x="70" y="45" width="820" height="175">
-      <rect x="70" y="45" width="820" height="175" fill="#000"/>
-      <g fill="#fff" font-family="MaliDev Logo, monospace" font-size="142"
-        font-style="italic" font-weight="700">
-        <g class="letter" style="--duration:6.1s;--dx:-3px;--dy:-7px;--dx2:2px;--dy2:4px"><text x="139" y="174">M</text></g>
-        <g class="letter" style="--duration:6.8s;--dx:3px;--dy:5px;--dx2:-2px;--dy2:-6px"><text x="239" y="174">A</text></g>
-        <g class="letter" style="--duration:7.4s;--dx:-2px;--dy:7px;--dx2:3px;--dy2:-4px"><text x="338" y="174">L</text></g>
-        <g class="letter" style="--duration:6.5s;--dx:2px;--dy:-6px;--dx2:-3px;--dy2:5px"><text x="438" y="174">I</text></g>
-        <g class="letter" style="--duration:7.1s;--dx:-3px;--dy:4px;--dx2:2px;--dy2:-7px"><text x="537" y="174">D</text></g>
-        <g class="letter" style="--duration:6.3s;--dx:3px;--dy:-5px;--dx2:-2px;--dy2:6px"><text x="637" y="174">E</text></g>
-        <g class="letter" style="--duration:7.7s;--dx:-2px;--dy:6px;--dx2:3px;--dy2:-5px"><text x="736" y="174">V</text></g>
-      </g>
-    </mask>
+    <clipPath id="glyph-m"><text class="logo-glyph" x="139" y="174">M</text></clipPath>
+    <clipPath id="glyph-a"><text class="logo-glyph" x="239" y="174">A</text></clipPath>
+    <clipPath id="glyph-l"><text class="logo-glyph" x="338" y="174">L</text></clipPath>
+    <clipPath id="glyph-i"><text class="logo-glyph" x="438" y="174">I</text></clipPath>
+    <clipPath id="glyph-d"><text class="logo-glyph" x="537" y="174">D</text></clipPath>
+    <clipPath id="glyph-e"><text class="logo-glyph" x="637" y="174">E</text></clipPath>
+    <clipPath id="glyph-v"><text class="logo-glyph" x="736" y="174">V</text></clipPath>
     <filter id="logo-glow" x="-20%" y="-50%" width="140%" height="200%">
       <feGaussianBlur stdDeviation="3.4" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
@@ -86,7 +88,25 @@
     <circle class="spark-c" cx="38" cy="232" r="1.25"/>
   </g>
 
-  <g filter="url(#logo-glow)">
-    <rect class="logo-points" x="70" y="45" width="820" height="175" fill="url(#logo-dots)" mask="url(#logo-mask)"/>
+  <g class="letter" style="--duration:6.1s;--from-x:-3px;--from-y:-7px;--to-x:2px;--to-y:4px" filter="url(#logo-glow)">
+    <rect class="logo-points" x="70" y="45" width="820" height="175" fill="url(#logo-dots)" clip-path="url(#glyph-m)"/>
+  </g>
+  <g class="letter" style="--duration:6.8s;--from-x:3px;--from-y:5px;--to-x:-2px;--to-y:-6px" filter="url(#logo-glow)">
+    <rect class="logo-points" x="70" y="45" width="820" height="175" fill="url(#logo-dots)" clip-path="url(#glyph-a)"/>
+  </g>
+  <g class="letter" style="--duration:7.4s;--from-x:-2px;--from-y:7px;--to-x:3px;--to-y:-4px" filter="url(#logo-glow)">
+    <rect class="logo-points" x="70" y="45" width="820" height="175" fill="url(#logo-dots)" clip-path="url(#glyph-l)"/>
+  </g>
+  <g class="letter" style="--duration:6.5s;--from-x:2px;--from-y:-6px;--to-x:-3px;--to-y:5px" filter="url(#logo-glow)">
+    <rect class="logo-points" x="70" y="45" width="820" height="175" fill="url(#logo-dots)" clip-path="url(#glyph-i)"/>
+  </g>
+  <g class="letter" style="--duration:7.1s;--from-x:-3px;--from-y:4px;--to-x:2px;--to-y:-7px" filter="url(#logo-glow)">
+    <rect class="logo-points" x="70" y="45" width="820" height="175" fill="url(#logo-dots)" clip-path="url(#glyph-d)"/>
+  </g>
+  <g class="letter" style="--duration:6.3s;--from-x:3px;--from-y:-5px;--to-x:-2px;--to-y:6px" filter="url(#logo-glow)">
+    <rect class="logo-points" x="70" y="45" width="820" height="175" fill="url(#logo-dots)" clip-path="url(#glyph-e)"/>
+  </g>
+  <g class="letter" style="--duration:7.7s;--from-x:-2px;--from-y:6px;--to-x:3px;--to-y:-5px" filter="url(#logo-glow)">
+    <rect class="logo-points" x="70" y="45" width="820" height="175" fill="url(#logo-dots)" clip-path="url(#glyph-v)"/>
   </g>
 </svg>
