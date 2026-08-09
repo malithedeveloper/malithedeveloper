@@ -1,99 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" role="img" aria-labelledby="title description">
-  <title id="title">malidev</title>
-  <desc id="description">Animated terminal-style header: building ideas into working systems.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" role="img" aria-labelledby="title description">
+  <title id="title">MALIDEV</title>
+  <desc id="description">The MALIDEV logo formed from glowing white particles on a black particle field.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070a0e"/>
-      <stop offset="0.55" stop-color="#0b1017"/>
-      <stop offset="1" stop-color="#080b10"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#b9ff66"/>
-      <stop offset="0.52" stop-color="#e8edf2"/>
-      <stop offset="1" stop-color="#78aaff"/>
-    </linearGradient>
-    <radialGradient id="halo">
-      <stop offset="0" stop-color="#8dc7ff" stop-opacity=".24"/>
-      <stop offset="1" stop-color="#8dc7ff" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#a9bdd4" stroke-opacity=".07"/>
-      <circle cx="0" cy="0" r="1" fill="#b9ff66" fill-opacity=".13"/>
+    <style>
+      @font-face {
+        font-family: "MaliDev Logo";
+        src: url("data:font/woff2;base64,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") format("woff2");
+        font-style: italic;
+        font-weight: 700;
+      }
+      .logo-cloud { animation: logo-float 7s ease-in-out infinite; transform-origin: center; }
+      .logo-points { animation: shimmer 3.8s ease-in-out infinite; }
+      .field-a { animation: field-a 9s ease-in-out infinite; }
+      .field-b { animation: field-b 12s ease-in-out infinite; }
+      .spark-a { animation: spark 3.1s ease-in-out infinite; }
+      .spark-b { animation: spark 4.7s ease-in-out infinite reverse; }
+      @keyframes logo-float {
+        0%,100% { transform:translate(0,0) }
+        35% { transform:translate(2px,-4px) }
+        70% { transform:translate(-2px,3px) }
+      }
+      @keyframes shimmer { 0%,100% { opacity:.82 } 50% { opacity:1 } }
+      @keyframes field-a { 0%,100% { transform:translate(0,0) } 50% { transform:translate(5px,-3px) } }
+      @keyframes field-b { 0%,100% { transform:translate(0,0) } 50% { transform:translate(-4px,4px) } }
+      @keyframes spark { 0%,100% { opacity:.14 } 50% { opacity:1 } }
+      @media (prefers-reduced-motion: reduce) {
+        .logo-cloud,.logo-points,.field-a,.field-b,.spark-a,.spark-b { animation:none !important; }
+      }
+    </style>
+    <pattern id="field-dots-a" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r=".8" fill="#e1e6eb" opacity=".28"/>
     </pattern>
-    <filter id="glow" x="-40%" y="-80%" width="180%" height="260%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feFlood flood-color="#b9ff66" flood-opacity=".42"/>
-      <feComposite in2="blur" operator="in"/>
-      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    <pattern id="field-dots-b" width="68" height="68" patternUnits="userSpaceOnUse" patternTransform="translate(17 12)">
+      <circle cx="4" cy="4" r="1.15" fill="#fff" opacity=".18"/>
+    </pattern>
+    <pattern id="logo-dots" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.65" fill="#fff"/>
+    </pattern>
+    <mask id="logo-mask" maskUnits="userSpaceOnUse" x="70" y="45" width="820" height="175">
+      <rect x="70" y="45" width="820" height="175" fill="#000"/>
+      <text x="480" y="174" text-anchor="middle" fill="#fff"
+        font-family="MaliDev Logo, monospace" font-size="142" font-style="italic"
+        font-weight="700" letter-spacing="12">MALIDEV</text>
+    </mask>
+    <filter id="logo-glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3.4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="soft-glow" x="-100%" y="-100%" width="300%" height="300%">
+    <filter id="spark-glow" x="-700%" y="-700%" width="1500%" height="1500%">
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <clipPath id="terminal-clip">
-      <rect x="48" y="48" width="864" height="204" rx="13"/>
-    </clipPath>
-    <mask id="type-mask">
-      <rect class="type-reveal" x="128" y="194" width="520" height="30" rx="2" fill="#fff"/>
-    </mask>
-    <style>
-      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
-      .pulse-a { animation: pulse-a 3.4s ease-in-out infinite; }
-      .pulse-b { animation: pulse-b 4.2s ease-in-out infinite; }
-      .scan { animation: scan 7s linear infinite; }
-      .type-reveal { transform-origin: 128px 0; animation: type 9s steps(38, end) infinite; }
-      .caret { animation: caret .9s steps(1, end) infinite; }
-      .flow { animation: flow 5s linear infinite; }
-      @keyframes pulse-a { 0%,100% { opacity:.3 } 50% { opacity:1 } }
-      @keyframes pulse-b { 0%,100% { opacity:.9 } 55% { opacity:.25 } }
-      @keyframes scan { from { transform:translateY(-30px) } to { transform:translateY(290px) } }
-      @keyframes type { 0%,10% { transform:scaleX(0) } 46%,78% { transform:scaleX(1) } 90%,100% { transform:scaleX(0) } }
-      @keyframes caret { 0%,48% { opacity:1 } 49%,100% { opacity:0 } }
-      @keyframes flow { to { stroke-dashoffset:-60 } }
-      @media (prefers-reduced-motion: reduce) {
-        .pulse-a,.pulse-b,.scan,.type-reveal,.caret,.flow { animation:none !important; }
-        .type-reveal { transform:scaleX(1); }
-      }
-    </style>
   </defs>
 
-  <rect width="960" height="300" rx="18" fill="url(#background)"/>
-  <rect width="960" height="300" rx="18" fill="url(#grid)"/>
-  <ellipse cx="730" cy="120" rx="285" ry="210" fill="url(#halo)"/>
-  <path class="flow" d="M0 262C142 221 218 293 370 252S633 215 960 268" fill="none" stroke="url(#accent)" stroke-width="1.4" stroke-opacity=".28" stroke-dasharray="2 14"/>
+  <rect width="960" height="260" fill="#020202"/>
+  <rect class="field-a" x="-12" y="-12" width="984" height="284" fill="url(#field-dots-a)"/>
+  <rect class="field-b" x="-12" y="-12" width="984" height="284" fill="url(#field-dots-b)"/>
 
-  <g clip-path="url(#terminal-clip)">
-    <rect x="48" y="48" width="864" height="204" rx="13" fill="#080c11" fill-opacity=".82" stroke="#8193a8" stroke-opacity=".25"/>
-    <rect x="48" y="48" width="864" height="34" fill="#111720"/>
-    <circle cx="68" cy="65" r="5" fill="#ff6b6b"/>
-    <circle cx="86" cy="65" r="5" fill="#f4c95d"/>
-    <circle cx="104" cy="65" r="5" fill="#79db75"/>
-    <text class="mono" x="480" y="70" text-anchor="middle" font-size="11" fill="#8d9aaa">mali@dev: ~/build</text>
-
-    <g opacity=".42" class="mono" font-size="10" fill="#7f91a6">
-      <text x="687" y="109">01 0110 1001</text>
-      <text x="730" y="126">1100 001 010</text>
-      <text x="668" y="143">101 0011 1100</text>
-      <text x="755" y="160">0110 101 01</text>
-    </g>
-
-    <text class="mono" x="88" y="118" font-size="13" fill="#7f91a6">$ whoami</text>
-    <text class="mono" x="88" y="174" font-size="54" font-weight="700" letter-spacing="-3" fill="url(#accent)" filter="url(#glow)">malidev</text>
-    <text class="mono" x="90" y="201" font-size="12" letter-spacing="2.2" fill="#93a2b4">SYSTEMS · STREAMS · EXPERIMENTS</text>
-
-    <g mask="url(#type-mask)">
-      <text class="mono" x="88" y="235" font-size="15" fill="#b9ff66">&gt;</text>
-      <text class="mono" x="108" y="235" font-size="15" fill="#dfe8f2">building ideas into working systems</text>
-      <rect class="caret" x="438" y="222" width="8" height="16" fill="#b9ff66"/>
-    </g>
-
-    <g fill="#b9ff66" filter="url(#soft-glow)">
-      <circle class="pulse-a" cx="835" cy="115" r="2.5"/>
-      <circle class="pulse-b" cx="866" cy="145" r="2"/>
-      <circle class="pulse-a" cx="809" cy="178" r="1.8"/>
-    </g>
-    <path class="scan" d="M48 0H912" stroke="#b9ff66" stroke-opacity=".12"/>
+  <g fill="#fff" filter="url(#spark-glow)">
+    <circle class="spark-a" cx="69" cy="54" r="1.7"/>
+    <circle class="spark-b" cx="151" cy="204" r="1.4"/>
+    <circle class="spark-b" cx="282" cy="38" r="1.5"/>
+    <circle class="spark-a" cx="742" cy="45" r="1.6"/>
+    <circle class="spark-b" cx="871" cy="193" r="1.8"/>
+    <circle class="spark-a" cx="917" cy="83" r="1.35"/>
   </g>
 
-  <rect x="48.5" y="48.5" width="863" height="203" rx="12.5" fill="none" stroke="url(#accent)" stroke-opacity=".35"/>
+  <g class="logo-cloud" filter="url(#logo-glow)">
+    <rect class="logo-points" x="70" y="45" width="820" height="175" fill="url(#logo-dots)" mask="url(#logo-mask)"/>
+  </g>
 </svg>
